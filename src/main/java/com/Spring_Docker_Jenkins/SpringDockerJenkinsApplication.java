@@ -11,7 +11,7 @@ public class SpringDockerJenkinsApplication {
 	
 	@GetMapping
 	public String home() {
-		return "Welcome to mven automatic build !!";
+		return "Welcome to Jenkins automatic build !!";
 	}
 
 	public static void main(String[] args) {
